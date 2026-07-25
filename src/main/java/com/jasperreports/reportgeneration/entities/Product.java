@@ -2,7 +2,7 @@ package com.jasperreports.reportgeneration.entities;
 
 import lombok.Data;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
@@ -22,6 +22,6 @@ public class Product {
     @Column(name = "quantity")
     private int quantity;
 
-    @Column(name = "categoryName")
+    @Column(name = "category_name")
     private String categoryName;
 }
